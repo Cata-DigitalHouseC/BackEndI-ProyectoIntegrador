@@ -1,0 +1,1 @@
+create table if not exists odontologos(nroMatricula varchar(25),nombre varchar(255), apellido varchar(255))
