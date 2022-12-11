@@ -27,12 +27,12 @@ public class PacienteController {
     }
 
     @GetMapping("/{id}") //Buscar un paciente por ID
-    public ResponseEntity<Optional<PacienteDto>> getPaciente(@PathVariable Integer id){
+    public ResponseEntity<Optional<PacienteDto>> getPaciente(@PathVariable Integer id) throws ResourceNotFoundException {
         return ResponseEntity.ok(pacienteService.buscar(id));
     }
 
     @PatchMapping("/{id}") //Actualizar un paciente por ID
-    public ResponseEntity<Optional<PacienteDto>> actualizarPaciente(@PathVariable Integer id, @RequestBody PacienteDto pacienteDto){
+    public ResponseEntity<Optional<PacienteDto>> actualizarPaciente(@PathVariable Integer id, @RequestBody PacienteDto pacienteDto) throws ResourceNotFoundException {
         return ResponseEntity.ok(pacienteService.actualizar(id, pacienteDto));
     }
 
@@ -44,7 +44,7 @@ public class PacienteController {
     }
 
     @GetMapping //listar todos los pacientes
-    public ResponseEntity<Collection<PacienteDto>> listarPacientes(){
+    public ResponseEntity<Collection<PacienteDto>> listarPacientes() throws ResourceNotFoundException {
         return ResponseEntity.ok(pacienteService.listar());
     }
 

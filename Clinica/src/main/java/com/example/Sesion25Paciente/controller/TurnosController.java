@@ -12,6 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
+import java.util.Optional;
 import java.util.Set;
 
 @RestController
@@ -29,7 +30,6 @@ public class TurnosController
     public ResponseEntity<TurnoDto> registrarTurno(@RequestBody TurnoDto turnoDto) throws ResourceNotFoundException {
         TurnoDto turnoGuardado = null;
         ResponseEntity<TurnoDto> response;
-
         if(pacienteService.buscar(turnoDto.pacienteId) == null //Si el paciente no existe o el odontologo no existe
                 || odontologoService.buscar(turnoDto.odontologoId) == null)
         {
@@ -44,8 +44,7 @@ public class TurnosController
     }
 
     @GetMapping
-    public ResponseEntity<Collection<TurnoDto>> listarTurnos()
-    {
+    public ResponseEntity<Collection<TurnoDto>> listarTurnos() throws ResourceNotFoundException {
         Set<TurnoDto> turnosDto = turnoService.listar();
 
         if(turnosDto.isEmpty())
@@ -54,6 +53,12 @@ public class TurnosController
         }
 
         return ResponseEntity.ok(turnoService.listar());
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<TurnoDto> buscarTurno(@PathVariable Integer id) throws ResourceNotFoundException {
+        Optional<TurnoDto> turnoDto = turnoService.buscarPorIdPaciente(id);
+        return ResponseEntity.ok(turnoDto.get());
     }
 
 }

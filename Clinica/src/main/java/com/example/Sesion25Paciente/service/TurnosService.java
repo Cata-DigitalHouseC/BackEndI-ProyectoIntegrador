@@ -32,7 +32,7 @@ public class TurnosService {
     }
 
 
-    public TurnoDto guardar(TurnoDto turnoDto){
+    public TurnoDto guardar(TurnoDto turnoDto) throws ResourceNotFoundException {
         //paciente ID
         //odontologo ID
         //fecha
@@ -62,12 +62,13 @@ public class TurnosService {
         return null;
     }
 
-
-
-    public Set<TurnoDto> listar() {
+    public Set<TurnoDto> listar() throws ResourceNotFoundException {
 
         List<Turno> turnos= turnoRepository.findAll();
         Set<TurnoDto> turnosDto = new HashSet<>();
+        if(turnos.isEmpty()){
+            throw new ResourceNotFoundException("No se encontraron turnos");
+        }
         for (Turno turno : turnos) {
             turnosDto.add(mapper.convertValue(turno, TurnoDto.class));
         }

@@ -1,12 +1,12 @@
 package com.example.Sesion25Paciente.entities;
 
 
-import javax.persistence.Id;
+import javax.persistence.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import java.util.Date;
+
+import com.example.Sesion25Paciente.dto.DomicilioDto;
+import com.example.Sesion25Paciente.entities.Domicilio;
 
 @Entity
 public class Paciente {
@@ -16,6 +16,9 @@ public class Paciente {
     private Integer id;
     private String nombre;
     private String apellido;
+
+    //@OneToOne
+    //@JoinColumn(name="idPaciente")
     private String domicilio;
     private String dni;
     private Date fechaAlta;
@@ -63,10 +66,12 @@ public class Paciente {
     }
 
     public String getDomicilio() {
+
         return domicilio;
     }
 
     public void setDomicilio(String domicilio) {
+
         this.domicilio = domicilio;
     }
 
@@ -85,4 +90,5 @@ public class Paciente {
     public void setFechaAlta(Date fechaAlta) {
         this.fechaAlta = fechaAlta;
     }
+
 }

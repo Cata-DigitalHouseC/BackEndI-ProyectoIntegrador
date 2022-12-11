@@ -22,6 +22,7 @@ public class OdontologoService {
 
     @Autowired //transfrma dto a clade negocio, recibe clase de negocio,
     ObjectMapper mapper;
+
     public OdontologoService(OdontologoRepository odontologoRepository) {
         this.odontologoRepository = odontologoRepository;
     }
@@ -37,30 +38,36 @@ public class OdontologoService {
     }
 
     //Listar odontologos
-   public Set<OdontologoDto> listar() {
+   public Set<OdontologoDto> listar() throws ResourceNotFoundException {
 
-        List<Odontologo> odontologos = odontologoRepository.findAll(); //Devuelve una lista de  odontologos, pero, se requieren dto
-        Set<OdontologoDto> odontologosDto = new HashSet<>();
-        for (Odontologo odontologo : odontologos) { //Recorro cada obj odontologo y lo convierot a dto
-            OdontologoDto odontologoDto = mapper.convertValue(odontologo, OdontologoDto.class); //cnvierto a dto
-            odontologosDto.add(odontologoDto); //adiciono al set d los dto
-        }
-        return odontologosDto;
-    }
+       List<Odontologo> odontologos = odontologoRepository.findAll(); //Devuelve una lista de  odontologos, pero, se requieren dto
+       Set<OdontologoDto> odontologosDto = new HashSet<>();
+       if(odontologosDto.isEmpty()){
+           throw new ResourceNotFoundException("No se encontraron odontologos");
+       }
+       for (Odontologo odontologo : odontologos) { //Recorro cada obj odontologo y lo convierot a dto
+           OdontologoDto odontologoDto = mapper.convertValue(odontologo, OdontologoDto.class); //cnvierto a dto
+           odontologosDto.add(odontologoDto); //adiciono al set d los dto
+       }
+       return odontologosDto;
+   }
 
     //listar o buscar un odontologo por id
-    public Optional<OdontologoDto> buscar(Integer id) {
+    public Optional<OdontologoDto> buscar(Integer id) throws ResourceNotFoundException {
         Optional<Odontologo> odontologo = odontologoRepository.findById(id); //Optional -> tiene o no contenido //Optional envuelve al obj y le agrega mas capacidades
     if (odontologo.isPresent()) {
             OdontologoDto odontologoDto = mapper.convertValue(odontologo.get(), OdontologoDto.class); //mapea de entidad a dto
             return Optional.of(odontologoDto);
         } else {
-            return Optional.empty(); //si no encuentra nada
+            throw new ResourceNotFoundException("No se encontro el odontologo con id: " + id);
         }
     }
 
     //Modificar odontologo, si no existe el id -> crea el nuevo odontologo
-    public Optional<OdontologoDto> actualizar(Integer id, OdontologoDto odontologoDtoNuevo) {
+    public Optional<OdontologoDto> actualizar(Integer id, OdontologoDto odontologoDtoNuevo) throws ResourceNotFoundException {
+        if(!buscar(id).isPresent()){
+            throw new ResourceNotFoundException("No existe el odontologo con id: " + id);
+        }
         Optional<OdontologoDto> odontologoDtoActual = buscar(id);
         if(odontologoDtoActual.isPresent()) {
             Odontologo odontologoEntity = mapper.convertValue(odontologoDtoActual, Odontologo.class);

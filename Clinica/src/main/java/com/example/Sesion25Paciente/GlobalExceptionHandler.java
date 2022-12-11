@@ -15,7 +15,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     public ResponseEntity<?> todosErrores(Exception ex, WebRequest req) //Centralizamos todos los errores
     {
-        logger.error(ex.getMessage());
+        logger.error(ex.getMessage()+ " GlobalExceptionHandler");
         return new ResponseEntity<>("Error " + ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }
