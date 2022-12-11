@@ -1,7 +1,6 @@
 package com.example.Sesion25Paciente.service;
 
 import com.example.Sesion25Paciente.dto.OdontologoDto;
-import com.example.Sesion25Paciente.entities.Odontologo;
 import com.example.Sesion25Paciente.exception.ResourceNotFoundException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +21,7 @@ class OdontologoServiceTest {
         //Arrange -> Preparar el escenario, crear objetos
         OdontologoDto dto = new OdontologoDto("Juan","Perez",1234);
         //Act
-        OdontologoDto result = odontologoService.guardar(dto);
+        Optional<OdontologoDto> result = odontologoService.guardar(dto);
         //Assert
         assertNotNull(result);
 
@@ -32,11 +31,11 @@ class OdontologoServiceTest {
     void eliminar() throws ResourceNotFoundException {
         //Arrange -> Preparar el escenario, crear objetos
         OdontologoDto dto = new OdontologoDto("Juan","Perez",1234);
-        OdontologoDto odontologoGuardado = odontologoService.guardar(dto);
+        Optional<OdontologoDto> odontologoGuardado = odontologoService.guardar(dto);
         //Act
-        odontologoService.eliminar(odontologoGuardado.id);
+        odontologoService.eliminar(odontologoGuardado.get().id);
         //Assert
-        Optional<Odontologo> result = odontologoService.buscar(odontologoGuardado.id);
+        Optional<OdontologoDto> result = odontologoService.buscar(odontologoGuardado.get().id);
         assertFalse(result.isPresent());
     }
 }
