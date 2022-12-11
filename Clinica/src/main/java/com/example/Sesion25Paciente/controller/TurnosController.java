@@ -1,7 +1,8 @@
 package com.example.Sesion25Paciente.controller;
 
 import com.example.Sesion25Paciente.dto.TurnoDto;
-import com.example.Sesion25Paciente.entities.Turno;
+
+import com.example.Sesion25Paciente.exception.ResourceNotFoundException;
 import com.example.Sesion25Paciente.service.OdontologoService;
 import com.example.Sesion25Paciente.service.PacienteService;
 import com.example.Sesion25Paciente.service.TurnosService;
@@ -10,7 +11,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import java.util.Collection;
+import java.util.Set;
 
 @RestController
 @RequestMapping("/turnos")
@@ -24,31 +26,29 @@ public class TurnosController
     private OdontologoService odontologoService;
 
     @PostMapping
-    public ResponseEntity<TurnoDto> registrarTurno(@RequestBody TurnoDto turno)
-    {
-        Turno turnoGuardado = null;
+    public ResponseEntity<TurnoDto> registrarTurno(@RequestBody TurnoDto turnoDto) throws ResourceNotFoundException {
+        TurnoDto turnoGuardado = null;
         ResponseEntity<TurnoDto> response;
 
-        if(pacienteService.buscar(turno.pacienteId) == null
-                && odontologoService.buscar(turno.odontologoId) == null)
-
+        if(pacienteService.buscar(turnoDto.pacienteId) == null //Si el paciente no existe o el odontologo no existe
+                || odontologoService.buscar(turnoDto.odontologoId) == null)
         {
-            response = ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        } else if (turnoService.buscarPorIdPaciente(turnoDto.pacienteId) != null) { //Si el paciente ya tiene un turno
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }
-        else
+        else //Crear turno exitosamente
         {
-            response = ResponseEntity.ok(turnoService.guardar(turno));
+            return  ResponseEntity.ok(turnoService.guardar(turnoDto));
         }
-
-        return response;
     }
 
     @GetMapping
-    public ResponseEntity<List<Turno>> listarTurnos()
+    public ResponseEntity<Collection<TurnoDto>> listarTurnos()
     {
-        List<Turno> turnos = turnoService.listar();
+        Set<TurnoDto> turnosDto = turnoService.listar();
 
-        if(turnos.isEmpty())
+        if(turnosDto.isEmpty())
         {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }

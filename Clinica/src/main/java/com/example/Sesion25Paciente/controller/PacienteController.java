@@ -1,30 +1,53 @@
 package com.example.Sesion25Paciente.controller;
 
-import com.example.Sesion25Paciente.entities.Paciente;
+import com.example.Sesion25Paciente.dto.PacienteDto;
+import com.example.Sesion25Paciente.exception.ResourceNotFoundException;
 import com.example.Sesion25Paciente.service.PacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Collection;
+import java.util.Optional;
+
 @RestController
-@RequestMapping("/paciente")
+@RequestMapping("/pacientes")
 
 //http:localhost:8080/paciente/5
 public class PacienteController {
 
 
-    @Autowired
+    @Autowired //El controller se comunica con el service
     private PacienteService pacienteService;
 
-    @PostMapping
-    public Paciente registrarPaciente(@RequestBody Paciente paciente){ //RequestBody -> Lo que le envio
 
-        return pacienteService.guardar(paciente);
+    @PostMapping //Agregar o crear un paciente
+    public ResponseEntity<Optional<PacienteDto>>registrarPaciente(@RequestBody PacienteDto pacienteDto){ //RequestBody -> Lo que le envio
+        return ResponseEntity.ok(pacienteService.guardar(pacienteDto));
     }
 
-    @GetMapping("/{id}")
-    public Paciente getPaciente(@PathVariable Integer id){
-        return pacienteService.buscar(id).get();
+    @GetMapping("/{id}") //Buscar un paciente por ID
+    public ResponseEntity<Optional<PacienteDto>> getPaciente(@PathVariable Integer id){
+        return ResponseEntity.ok(pacienteService.buscar(id));
     }
+
+    @PatchMapping("/{id}") //Actualizar un paciente por ID
+    public ResponseEntity<Optional<PacienteDto>> actualizarPaciente(@PathVariable Integer id, @RequestBody PacienteDto pacienteDto){
+        return ResponseEntity.ok(pacienteService.actualizar(id, pacienteDto));
+    }
+
+
+    @DeleteMapping("/{id}") //Eliminar un paciente por ID
+    public ResponseEntity<?> eliminarPaciente(@PathVariable Integer id) throws ResourceNotFoundException {
+        pacienteService.eliminar(id);
+        return ResponseEntity.ok("Paciente eliminado");
+    }
+
+    @GetMapping //listar todos los pacientes
+    public ResponseEntity<Collection<PacienteDto>> listarPacientes(){
+        return ResponseEntity.ok(pacienteService.listar());
+    }
+
 
 
 

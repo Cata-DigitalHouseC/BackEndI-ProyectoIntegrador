@@ -49,7 +49,7 @@ public class TurnosService {
         return turnoCreadoDto;
     }
 
-    private Optional<TurnoDto> buscarPorIdPaciente(Integer id) throws ResourceNotFoundException {
+    public Optional<TurnoDto> buscarPorIdPaciente(Integer id) throws ResourceNotFoundException {
 
         Turno turnoEncontrado = null;
         for (Turno turno : turnoRepository.findAll()) {

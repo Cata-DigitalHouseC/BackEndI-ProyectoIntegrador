@@ -29,6 +29,9 @@ public class Turno
         this.id = id;
     }
 
+    public Turno() {
+    }
+
     public Turno(Integer id, Paciente paciente, Odontologo odontologo, Date date) {
         this.id = id;
         this.paciente = paciente;
