@@ -11,4 +11,13 @@ public class TurnoDto {
     public Integer pacienteId;
     public Integer odontologoId;
     public Date fecha;
+
+    public TurnoDto() {
+    }
+
+    public TurnoDto(Integer pacienteId, Integer odontologoId, Date fecha) {
+        this.pacienteId = pacienteId;
+        this.odontologoId = odontologoId;
+        this.fecha = fecha;
+    }
 }

@@ -85,6 +85,7 @@ public class OdontologoService {
 
     }
 
+    /*
     private Odontologo mapDtoToEntity(OdontologoDto odontologo) {
         Odontologo odontologoEntity = new Odontologo();
         odontologoEntity.setMatricula(odontologo.matricula);
@@ -92,4 +93,6 @@ public class OdontologoService {
         odontologoEntity.setApellido(odontologo.apellido);
         return odontologoEntity;
     }
+    */
+
 }
