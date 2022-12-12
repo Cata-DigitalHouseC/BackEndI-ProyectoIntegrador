@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>CRUD Pacientes</title>
+    <title>Pacientes</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -12,41 +12,42 @@
     <script type="text/javascript" src="/js/update_paciente.js"></script>
     <script type="text/javascript" src="/js/delete_paciente.js"></script>
 </head>
+
 <body>
 <div class="container">
     <ul class="nav nav-pills">
         <li class="nav-item">
-            <a class="nav-link" href="/index.html">Menú principal</a>
+            <a class="nav-link" href="/">Agregar nuevo Paciente</a>
         </li>
+
         <li class="nav-item">
-            <a class="nav-link" href="/alta-paciente.html">Agregar nuevo</a>
+            <a class="nav-link" href="/ListaPacientes.html/">Lista Pacientes</a>
         </li>
     </ul>
 
     <div id="div_paciente_table">
         <h1>Pacientes</h1>
-        <div class="row col-md-12 table-responsive">
+        <div class="row col-md-6 table-responsive">
             <table id="pacienteTable" class="table table-striped">
                 <thead>
                 <tr>
                     <th>Id</th>
                     <th>Nombre</th>
                     <th>Apellido</th>
-                    <th>DNI</th>
-                    <th>Fecha de ingreso</th>
                     <th>Domicilio</th>
+                    <th>DNI</th>
+                    <th>Fecha alta</th>
                     <th></th>
                 </tr>
                 </thead>
                 <tbody id="pacienteTableBody">
-
                 </tbody>
             </table>
         </div>
     </div>
     <div class="row">
         <div class="col-sm-6" style="display: none;
-											background-color:#e6fffa; padding:10px; border-radius:3px"
+            background-color:#e6fffa; padding:10px; border-radius:3px"
              id="div_paciente_updating">
             <form id="update_paciente_form">
                 <div class="form-group">
@@ -55,29 +56,29 @@
                 </div>
                 <div class="form-group">
                     <label >Nombre:</label>
-                    <input type="text" class="form-control" placeholder="nombre" id="nombre">
+                    <input type="text" class="form-control"
+                           placeholder="nombre" id="nombre">
                 </div>
                 <div class="form-group">
                     <label >Apellido:</label>
-                    <input type="text" class="form-control" placeholder="apellido" id="apellido">
-                </div>
-                <div class="form-group">
-                    <label >DNI:</label>
-                    <input type="text" class="form-control" placeholder="dni" id="dni">
-                </div>
-                <div class="form-group">
-                    <label >Fecha de Ingreso:</label>
-                    <input type="text" class="form-control" placeholder="fechaIngreso" id="fechaIngreso">
+                    <input type="text" class="form-control"
+                           placeholder="apellido" id="apellido">
                 </div>
                 <div class="form-group">
                     <label >Domicilio:</label>
-                    <input type="text" class="form-control" placeholder="Calle" id="calle">
-                    <input type="text" class="form-control" placeholder="numero" id="numero">
-                    <input type="text" class="form-control" placeholder="localidad" id="localidad">
-                    <input type="text" class="form-control" placeholder="provincia" id="provincia">
+                    <input type="text" class="form-control"
+                           placeholder="domicilio" id="domicilio">
                 </div>
-
-
+                <div class="form-group">
+                    <label >DNI:</label>
+                    <input type="text" class="form-control"
+                           placeholder="dni" id="dni">
+                </div>
+                <div class="form-group">
+                    <label >Fecha alta:</label>
+                    <input type="text" class="form-control"
+                           placeholder="fechaAlta" id="fechaAlta">
+                </div>
                 <button type="submit" class="btn btn-primary">Modificar</button>
             </form>
             <div id="response" style="display:none; margin:10px">
@@ -85,31 +86,6 @@
         </div>
     </div>
     <hr>
-
-    <div class="modal fade" id="delete-modal">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Eliminada!</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-danger" id="model-delete-btn">Eliminar</button>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 </body>
 </html>
-
-

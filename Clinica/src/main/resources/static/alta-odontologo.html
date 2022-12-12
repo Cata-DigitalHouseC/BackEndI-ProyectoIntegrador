@@ -3,62 +3,55 @@
 <html lang="es">
 
 <head>
-    <title>Alta/Registro de Pacientes</title>
+    <title>Alta/Registro de Odontologos</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/js/post_paciente.js"></script>
+    <script type="text/javascript" src="/js/post_odontologo.js"></script>
 </head>
 
 <body>
 
 <div class="container">
+
     <ul class="nav nav-pills">
+
         <li class="nav-item">
-            <a class="nav-link" href="/ListaPacientes.html">Listar Pacientes</a>
+
+            <a class="nav-link" href="/ListaOdontologos.html">Listar Odntologos</a>
+
         </li>
 
     </ul>
+
     <div class="row">
+
         <div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px">
 
-            <h3>Agregar Paciente</h3>
+            <h3>Agregar Odontologo</h3>
 
-            <form id="add_new_paciente">
+            <form id="add_new_odontolgo">
                 <div class="form-group">
                     <label class="control-label" for="nombre">Nombre:</label>
                     <input type="text" class="form-control" id="nombre"
-                           placeholder="Ingrese el Nombre del Paciente"
+                           placeholder="Ingrese el Nombre del Odontólogo"
                            name="nombre" required></input>
                 </div>
                 <div class="form-group">
                     <label class="control-label" for="apellido">Apellido:</label>
                     <input type="text" class="form-control" id="apellido"
-                           placeholder="Ingrese el Apellido del Paciente"
+                           placeholder="Ingrese el Nombre del Odontólogo"
                            name="apellido" required></input>
                 </div>
                 <div class="form-group">
-                    <label class="control-label" for="domicilio">Domicilio:</label>
-                    <input type="text" class="form-control" id="domicilio"
-                           placeholder="Ingrese el Domicilio del Paciente"
-                           name="domicilio" required></input>
+                    <label class="control-label" for="matricula">Matricula:</label>
+                    <input type="text" class="form-control" id="matricula"
+                           placeholder="Ingrese la Matricula del Odontólogo"
+                           name="matricula" required></input>
                 </div>
-                <div class="form-group">
-                    <label class="control-label" for="dni">DNI:</label>
-                    <input type="text" class="form-control" id="dni"
-                           placeholder="Ingrese el DNI del Paciente"
-                           name="dni" required></input>
-                </div>
-                <div class="form-group">
-                    <label class="control-label" for="fechaAlta">Fecha Alta:</label>
-                    <input type="text" class="form-control" id="fechaAlta"
-                           placeholder="Ingrese la fecha alta del Paciente"
-                           name="fechaAlta" required></input>
-                </div>
-
 
                 <button type="submit" class="btn btn-danger"
                         id="btn-add-new-premio">Guardar</button>

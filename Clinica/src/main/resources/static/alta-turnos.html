@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
-  <title>Clinica Odontologica</title>
+  <title>Alta/Registro de Turnos</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -10,52 +12,45 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="/js/post_turno.js"></script>
 </head>
+
 <body>
+
 <div class="container">
   <ul class="nav nav-pills">
     <li class="nav-item">
-      <a class="nav-link" href="/turnos.html">Listar Turnos</a>
+      <a class="nav-link" href="/ListaTurnos.html">Listar Turnos</a>
     </li>
+
   </ul>
   <div class="row">
     <div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px">
+
       <h3>Agregar Turno</h3>
+
       <form id="add_new_turno">
         <div class="form-group">
-          <label>Id:</label>
-          <input type="text" class="form-control" id="turno_id" readonly>
+          <label class="control-label" for="idPaciente">Id Paciente:</label>
+          <input type="text" class="form-control" id="idPaciente"
+                 placeholder="Ingrese el Id del Paciente"
+                 name="idPaciente" required></input>
         </div>
         <div class="form-group">
-          <label class="control-label" for="fecha">Fecha:</label>
-          <input type="text" class="form-control" id="fecha"
-                 placeholder="Fecha"
-                 name="fecha" required />
-        </div>
-
-        <!-- <div class="form-group">
-          <label class="control-label" for="hora">Hora:</label>
-          <input type="text" class="form-control" id="hora"
-                 placeholder="hora"
-                 name="hora" required></input>
-        </div> -->
-
-        <div class="form-group">
-          <label class="control-label" for="paciente_id">ID Paciente:</label>
-          <input type="text" class="form-control" id="paciente_id"
-                 placeholder="ID Paciente"
-                 name="paciente_id" required />
+          <label class="control-label" for="idOdontologo">Id Odontólogo:</label>
+          <input type="text" class="form-control" id="idOdontologo"
+                 placeholder="Ingrese el Id del odontólogo"
+                 name="idOdontologo" required></input>
         </div>
         <div class="form-group">
-          <label class="control-label" for="odontologo_id">ID Odontólogo:</label>
-          <input type="text" class="form-control" id="odontologo_id"
-                 placeholder="ID Odontólogo"
-                 name="odontologo_id" required />
+          <label class="control-label" for="date">Fecha Cita:</label>
+          <input type="text" class="form-control" id="date"
+                 placeholder="Ingrese la fecha la cita"
+                 name="datea" required></input>
         </div>
-
 
         <button type="submit" class="btn btn-danger"
-                id="btn-add-new-turno">Guardar</button>
+                id="btn-add-new-premio">Guardar</button>
       </form>
+
       <div id="response" style="display:none; margin-top:10px">
       </div>
     </div>

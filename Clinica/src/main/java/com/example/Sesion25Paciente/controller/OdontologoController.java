@@ -7,11 +7,13 @@ import com.example.Sesion25Paciente.service.OdontologoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.Collection;
 import java.util.Optional;
+import java.util.Set;
 
 @RestController
 @RequestMapping("/odontologos")
@@ -20,11 +22,18 @@ public class OdontologoController
     @Autowired
     private OdontologoService odontologoService;
 
+    @GetMapping("/")
+    public String index(){
+        return "index";
+    }
+
+
     @PostMapping
     public ResponseEntity<Optional<OdontologoDto>> registrarOdontologo(@Valid @RequestBody OdontologoDto odontologoDto)
     {
         return ResponseEntity.status(HttpStatus.CREATED).body(odontologoService.guardar(odontologoDto));
     }
+
 
     @GetMapping
     public ResponseEntity<Collection<OdontologoDto>> listarOdontologos() throws ResourceNotFoundException {
