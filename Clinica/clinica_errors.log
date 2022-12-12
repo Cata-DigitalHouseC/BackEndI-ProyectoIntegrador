@@ -1,0 +1,16 @@
+[2022-12-1120:05:44] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1120:05:55] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1120:06:29] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1120:06:49] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1120:07:15] [ ERROR] [GlobalExceptionHandler:18] JSON parse error: Cannot deserialize value of type `java.lang.String` from Object value (token `JsonToken.START_OBJECT`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.lang.String` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 57] (through reference chain: com.example.Sesion25Paciente.dto.PacienteDto["domicilio"]) GlobalExceptionHandler
+[2022-12-1120:07:36] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1120:07:39] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1120:11:53] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1120:12:29] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1120:14:47] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1120:15:07] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1120:15:15] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1120:15:44] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1120:16:20] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1120:16:32] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler

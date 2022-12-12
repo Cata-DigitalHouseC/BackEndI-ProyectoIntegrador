@@ -1,4 +1,4 @@
-package com.example.Sesion25Paciente.service;
+package com.example.Sesion25Paciente.service.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

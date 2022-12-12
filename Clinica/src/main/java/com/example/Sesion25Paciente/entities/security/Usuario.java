@@ -28,8 +28,7 @@ public class Usuario implements UserDetails {
     public Usuario() {
     }
 
-    public Usuario(Integer id, String name, String email, String username, String password, Rol rol) {
-        this.id = id;
+    public Usuario(String name, String email, String username, String password, Rol rol) {
         this.name = name;
         this.email = email;
         this.username = username;
@@ -40,8 +39,8 @@ public class Usuario implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        SimpleGrantedAuthority grantedAuthority = new SimpleGrantedAuthority(rol.name());
-        return Collections.singletonList(grantedAuthority);
+        SimpleGrantedAuthority grantedAuthority = new SimpleGrantedAuthority(rol.name()); //Maneja roles de usuario
+        return Collections.singletonList(grantedAuthority); //Uno de la coleccion
     }
 
     @Override
@@ -52,7 +51,7 @@ public class Usuario implements UserDetails {
     @Override
     public String getUsername() {
         return email;
-    }
+    } //el username es el email
 
     @Override
     public boolean isAccountNonExpired() {

@@ -8,8 +8,8 @@ import javax.transaction.Transactional;
 import java.util.Optional;
 
 @Repository
-@Transactional() //Solo leer no modificar //readOnly = true
-public interface UserRepository extends JpaRepository<Usuario, Integer> {
+@Transactional //Solo leer no modificar //readOnly = true
+public interface UsuarioRepository extends JpaRepository<Usuario, Integer> {
 
     Optional<Usuario> findByEmail(String email);
 }
