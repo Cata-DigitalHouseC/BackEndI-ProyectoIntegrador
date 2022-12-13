@@ -35,6 +35,10 @@ public class Paciente {
     public Paciente() {
     }
 
+    public Paciente(Integer id) {
+        this.id = id;
+    }
+
     public Integer getId() {
 
         return id;

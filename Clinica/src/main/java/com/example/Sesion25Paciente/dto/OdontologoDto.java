@@ -20,4 +20,9 @@ public class OdontologoDto {
         this.apellido = apellido;
         this.matricula = matricula;
     }
+
+    /*
+    public void setId(int i) { //para test de integracion
+    }
+     */
 }

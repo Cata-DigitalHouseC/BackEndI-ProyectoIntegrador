@@ -32,6 +32,10 @@ public class Odontologo
 
     }
 
+    public Odontologo(Integer id) {
+        this.id = id;
+    }
+
     public Integer getId() {
         return id;
     }

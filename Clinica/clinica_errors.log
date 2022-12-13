@@ -14,3 +14,519 @@
 [2022-12-1120:15:44] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
 [2022-12-1120:16:20] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
 [2022-12-1120:16:32] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1210:41:58] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1210:42:06] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1210:43:09] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1210:43:53] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1210:59:07] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1210:59:19] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1211:00:32] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1211:09:28] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1211:11:52] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1211:13:56] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1211:17:58] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1211:18:43] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1211:19:13] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1211:26:48] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1211:29:36] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1212:14:00] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1212:20:56] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1212:21:16] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1212:21:38] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1212:22:39] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1212:25:11] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1212:25:46] [ ERROR] [GlobalExceptionHandler:18] No se encontro el paciente con id: 1 GlobalExceptionHandler
+[2022-12-1212:26:18] [ ERROR] [GlobalExceptionHandler:18] No se encontro el paciente con id: 1 GlobalExceptionHandler
+[2022-12-1212:26:28] [ ERROR] [GlobalExceptionHandler:18] No se encontro el odontologo con id: 1 GlobalExceptionHandler
+[2022-12-1212:38:31] [ ERROR] [GlobalExceptionHandler:18] No se encontro el odontologo con id: 2 GlobalExceptionHandler
+[2022-12-1212:38:34] [ ERROR] [GlobalExceptionHandler:18] No se encontro el odontologo con id: 2 GlobalExceptionHandler
+[2022-12-1212:39:51] [ ERROR] [GlobalExceptionHandler:18] No se encontro el paciente con id: 1 GlobalExceptionHandler
+[2022-12-1212:39:54] [ ERROR] [GlobalExceptionHandler:18] No se encontro el paciente con id: 1 GlobalExceptionHandler
+[2022-12-1212:40:05] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1212:40:11] [ ERROR] [GlobalExceptionHandler:18] No se encontro el odontologo con id: 2 GlobalExceptionHandler
+[2022-12-1212:40:48] [ ERROR] [GlobalExceptionHandler:18] Cannot invoke "com.example.Sesion25Paciente.entities.Paciente.getId()" because the return value of "com.example.Sesion25Paciente.entities.Turno.getPaciente()" is null GlobalExceptionHandler
+[2022-12-1212:40:54] [ ERROR] [GlobalExceptionHandler:18] Cannot invoke "com.example.Sesion25Paciente.entities.Paciente.getId()" because the return value of "com.example.Sesion25Paciente.entities.Turno.getPaciente()" is null GlobalExceptionHandler
+[2022-12-1212:44:27] [ ERROR] [GlobalExceptionHandler:18] Cannot invoke "com.example.Sesion25Paciente.entities.Paciente.getId()" because the return value of "com.example.Sesion25Paciente.entities.Turno.getPaciente()" is null GlobalExceptionHandler
+[2022-12-1212:52:01] [ ERROR] [GlobalExceptionHandler:18] No se encontro el odontologo con id: 1 GlobalExceptionHandler
+[2022-12-1212:52:08] [ ERROR] [GlobalExceptionHandler:18] No se encontro el odontologo con id: 1 GlobalExceptionHandler
+[2022-12-1212:53:01] [ ERROR] [GlobalExceptionHandler:18] Request method 'POST' not supported GlobalExceptionHandler
+[2022-12-1212:53:14] [ ERROR] [GlobalExceptionHandler:18] No se encontro el paciente con id: 1 GlobalExceptionHandler
+[2022-12-1212:53:19] [ ERROR] [GlobalExceptionHandler:18] No se encontro el paciente con id: 1 GlobalExceptionHandler
+[2022-12-1212:55:40] [ ERROR] [GlobalExceptionHandler:18] The given id must not be null!; nested exception is java.lang.IllegalArgumentException: The given id must not be null! GlobalExceptionHandler
+[2022-12-1212:56:09] [ ERROR] [GlobalExceptionHandler:18] No se encontro el odontologo con id: 1 GlobalExceptionHandler
+[2022-12-1212:56:38] [ ERROR] [GlobalExceptionHandler:18] Cannot invoke "com.example.Sesion25Paciente.entities.Paciente.getId()" because the return value of "com.example.Sesion25Paciente.entities.Turno.getPaciente()" is null GlobalExceptionHandler
+[2022-12-1216:29:02] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1216:29:21] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1216:30:53] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 2
+[2022-12-1216:32:00] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 3
+[2022-12-1216:34:15] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 4
+[2022-12-1216:36:10] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 5
+[2022-12-1216:36:18] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 6
+[2022-12-1216:37:23] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 7
+[2022-12-1216:40:58] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1216:41:57] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1216:43:29] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1216:44:45] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1216:45:31] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1216:45:52] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1216:46:01] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1216:46:05] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1216:46:16] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1216:46:26] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1216:46:26] [ DEBUG] [OdontologoService:99] Borrando  odontologo con ID: 1
+[2022-12-1216:47:02] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 2
+[2022-12-1216:47:09] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1216:47:14] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 2
+[2022-12-1216:47:25] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 2
+[2022-12-1216:47:25] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 2
+[2022-12-1216:47:25] [ DEBUG] [OdontologoService:86] Modificando odontologo con ID: 2
+[2022-12-1216:47:25] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1216:47:35] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 2
+[2022-12-1216:47:43] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 2
+[2022-12-1216:47:43] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 2
+[2022-12-1216:47:43] [ DEBUG] [OdontologoService:86] Modificando odontologo con ID: 2
+[2022-12-1216:47:44] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1216:48:06] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 3
+[2022-12-1216:48:10] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1216:48:10] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 2
+[2022-12-1216:48:16] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 2
+[2022-12-1216:48:16] [ DEBUG] [OdontologoService:99] Borrando  odontologo con ID: 2
+[2022-12-1216:48:18] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 3
+[2022-12-1216:48:30] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 3
+[2022-12-1216:48:30] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 3
+[2022-12-1216:48:30] [ DEBUG] [OdontologoService:86] Modificando odontologo con ID: 3
+[2022-12-1216:48:31] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1216:48:35] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 3
+[2022-12-1216:48:35] [ DEBUG] [OdontologoService:99] Borrando  odontologo con ID: 3
+[2022-12-1216:59:38] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1217:00:03] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1217:00:42] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1217:00:50] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1217:00:52] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1217:04:03] [ ERROR] [GlobalExceptionHandler:18] No se encontro el paciente con id: 2 GlobalExceptionHandler
+[2022-12-1217:04:18] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1217:04:20] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 2
+[2022-12-1217:04:25] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 2
+[2022-12-1217:04:25] [ ERROR] [GlobalExceptionHandler:18] No se encontro el odontologo con id: 2 GlobalExceptionHandler
+[2022-12-1217:04:35] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 2
+[2022-12-1217:04:41] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 2
+[2022-12-1217:04:41] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 2
+[2022-12-1217:04:41] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 2
+[2022-12-1217:04:41] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 2
+[2022-12-1217:28:55] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1217:28:55] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1217:29:02] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1217:29:02] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1217:29:05] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1217:29:05] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1217:29:15] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1217:29:15] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1217:29:35] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1217:29:35] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1217:29:40] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1217:29:40] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1217:30:00] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1217:30:00] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 2
+[2022-12-1217:30:03] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1217:30:03] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1217:30:03] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 2
+[2022-12-1217:30:10] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1217:30:10] [ DEBUG] [OdontologoService:100] Borrando  paciente con ID: 1
+[2022-12-1217:30:10] [ INFO ] [OdontologoService:51] Ingresando a eliminar paciente
+[2022-12-1217:30:12] [ INFO ] [OdontologoService:37] Ingresando a buscar paciente por ID 2
+[2022-12-1217:30:12] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 2
+[2022-12-1217:30:24] [ INFO ] [OdontologoService:43] Ingresando a modificar paciente
+[2022-12-1217:30:24] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 2
+[2022-12-1217:30:24] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 2
+[2022-12-1217:30:24] [ DEBUG] [OdontologoService:87] Modificando paciente con ID: 2
+[2022-12-1217:30:25] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1217:30:25] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1217:30:40] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1217:30:55] [ ERROR] [GlobalExceptionHandler:18] Cannot read field "id" because "turnoDto.pacienteObjeto" is null GlobalExceptionHandler
+[2022-12-1217:30:58] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1217:31:22] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1217:31:22] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1217:31:31] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1217:31:31] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1217:31:39] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1217:31:47] [ ERROR] [GlobalExceptionHandler:18] Cannot read field "id" because "turnoDto.pacienteObjeto" is null GlobalExceptionHandler
+[2022-12-1217:31:50] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1217:37:32] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1217:37:32] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1217:37:39] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1217:37:39] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1217:37:46] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1217:37:46] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1217:37:51] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1217:37:51] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1217:38:03] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1217:38:03] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1217:38:08] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1217:38:08] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1217:38:18] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1217:38:35] [ ERROR] [GlobalExceptionHandler:18] Cannot read field "id" because "turnoDto.pacienteObjeto" is null GlobalExceptionHandler
+[2022-12-1217:38:53] [ ERROR] [GlobalExceptionHandler:18] Cannot read field "id" because "turnoDto.pacienteObjeto" is null GlobalExceptionHandler
+[2022-12-1217:38:56] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1217:41:47] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1217:41:47] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1217:41:54] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1217:41:54] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1217:41:57] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1217:41:57] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1217:42:02] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1217:42:02] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1217:42:21] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1217:42:21] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1217:42:24] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1217:42:24] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1217:42:37] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1217:49:39] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1217:49:40] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1217:49:49] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1217:49:49] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1217:49:51] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1217:49:51] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1217:50:02] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1217:50:02] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1217:50:13] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1217:50:13] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1217:50:16] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1217:50:16] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1217:50:21] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1217:50:41] [ ERROR] [GlobalExceptionHandler:18] Cannot read field "id" because "turnoDto.pacienteObjeto" is null GlobalExceptionHandler
+[2022-12-1217:50:51] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1218:25:23] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1218:25:23] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1218:25:29] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1218:25:29] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1218:25:40] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1218:26:37] [ INFO ] [OdontologoService:69] Buscando turno para el paciente con ID: 2
+[2022-12-1218:26:37] [ ERROR] [GlobalExceptionHandler:18] Cannot invoke "java.util.Optional.get()" because "turnoDto" is null GlobalExceptionHandler
+[2022-12-1218:38:20] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1218:38:20] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1218:38:25] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1218:38:25] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1218:38:28] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1218:38:28] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1218:38:38] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1218:38:38] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1218:38:43] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1218:38:43] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1218:41:30] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1218:41:30] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1218:41:30] [ INFO ] [OdontologoService:48] Registrando turno para el paciente con ID: 1
+[2022-12-1218:41:30] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1218:41:30] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1218:41:30] [ DEBUG] [OdontologoService:52] Guardando al turno con ID: null
+[2022-12-1218:41:40] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1218:41:40] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1218:41:57] [ DEBUG] [OdontologoService:63] Buscando el turno con paciente ID: 1
+[2022-12-1218:41:57] [ INFO ] [OdontologoService:69] Buscando turno para el paciente con ID: 1
+[2022-12-1218:50:36] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1218:50:36] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1218:50:36] [ DEBUG] [OdontologoService:63] Buscando el turno con paciente ID: 1
+[2022-12-1218:50:36] [ DEBUG] [OdontologoService:43] No se pudo registrar el turno
+[2022-12-1218:50:56] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1218:50:56] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 2
+[2022-12-1218:51:00] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1218:51:00] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1218:51:00] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 2
+[2022-12-1218:51:19] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 2
+[2022-12-1218:51:19] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1218:51:19] [ ERROR] [GlobalExceptionHandler:18] No se encontro turno, para el paciente con el id: 2 GlobalExceptionHandler
+[2022-12-1218:51:39] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 2
+[2022-12-1218:51:39] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1218:51:39] [ ERROR] [GlobalExceptionHandler:18] No se encontro turno, para el paciente con el id: 2 GlobalExceptionHandler
+[2022-12-1218:51:45] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1218:51:45] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1218:52:52] [ DEBUG] [OdontologoService:63] Buscando el turno con paciente ID: 1
+[2022-12-1218:52:52] [ INFO ] [OdontologoService:69] Buscando turno para el paciente con ID: 1
+[2022-12-1218:57:35] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1218:57:35] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1218:57:47] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1218:57:47] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1218:58:11] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1218:58:11] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1218:58:11] [ INFO ] [OdontologoService:48] Registrando turno para el paciente con ID: 1
+[2022-12-1218:58:11] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1218:58:11] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1218:58:11] [ DEBUG] [OdontologoService:52] Guardando al turno con ID: null
+[2022-12-1218:59:00] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1218:59:00] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1218:59:06] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1218:59:06] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1218:59:13] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1218:59:13] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1218:59:13] [ INFO ] [OdontologoService:48] Registrando turno para el paciente con ID: 1
+[2022-12-1218:59:13] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1218:59:13] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1218:59:13] [ DEBUG] [OdontologoService:52] Guardando al turno con ID: null
+[2022-12-1218:59:21] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1218:59:21] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1218:59:28] [ DEBUG] [OdontologoService:63] Buscando el turno con paciente ID: 1
+[2022-12-1218:59:28] [ INFO ] [OdontologoService:69] Buscando turno para el paciente con ID: 1
+[2022-12-1219:01:41] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:01:41] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:01:47] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:01:47] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1219:01:54] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:01:54] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1219:02:01] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:02:01] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1219:02:06] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:02:06] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:02:17] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1219:02:17] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1219:02:17] [ DEBUG] [OdontologoService:63] Buscando el turno con paciente ID: 1
+[2022-12-1219:02:17] [ DEBUG] [OdontologoService:43] No se pudo registrar el turno
+[2022-12-1219:02:22] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:02:22] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:02:26] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:02:26] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:02:33] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1219:02:33] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1219:02:33] [ DEBUG] [OdontologoService:63] Buscando el turno con paciente ID: 1
+[2022-12-1219:02:33] [ DEBUG] [OdontologoService:43] No se pudo registrar el turno
+[2022-12-1219:07:10] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:07:10] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1219:07:18] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1219:07:18] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1219:07:21] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:07:21] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1219:07:30] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:07:30] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1219:07:43] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1219:07:43] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1219:07:49] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:07:49] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1219:07:53] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:08:09] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1219:08:09] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1219:08:09] [ INFO ] [OdontologoService:48] Registrando turno para el paciente con ID: 1
+[2022-12-1219:08:09] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1219:08:09] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1219:08:09] [ DEBUG] [OdontologoService:52] Guardando al turno con ID: null
+[2022-12-1219:08:13] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:08:13] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:16:28] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:16:28] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1219:16:34] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1219:16:34] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1219:16:36] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:16:36] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1219:16:41] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:16:41] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1219:16:59] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1219:16:59] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1219:17:02] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:17:02] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1219:17:10] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:17:20] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1219:17:20] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1219:17:20] [ INFO ] [OdontologoService:48] Registrando turno para el paciente con ID: 1
+[2022-12-1219:17:20] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1219:17:20] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1219:17:20] [ DEBUG] [OdontologoService:52] Guardando al turno con ID: null
+[2022-12-1219:17:23] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:17:23] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:27:38] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:27:38] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1219:27:45] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1219:27:45] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1219:27:49] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:27:49] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1219:27:59] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1219:27:59] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1219:28:02] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:28:02] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1219:28:05] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:28:05] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1219:28:09] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:28:23] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:36:13] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:36:13] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1219:36:20] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1219:36:20] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1219:36:22] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:36:22] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1219:36:26] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:36:26] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1219:36:35] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1219:36:35] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1219:36:38] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:36:38] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1219:36:43] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:36:54] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:43:39] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:43:39] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1219:43:47] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1219:43:47] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1219:43:49] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:43:49] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1219:43:53] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:43:53] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1219:44:07] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1219:44:07] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1219:44:10] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:44:10] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1219:44:15] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:44:45] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:44:54] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:48:42] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:48:42] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1219:48:49] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1219:48:49] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1219:48:51] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:48:51] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1219:48:56] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:48:56] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1219:49:03] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1219:49:03] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1219:49:06] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:49:06] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1219:49:11] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:50:01] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:50:01] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1219:50:31] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1219:50:31] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1219:50:35] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:50:35] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1219:50:39] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:50:39] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1219:50:50] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1219:50:50] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1219:50:52] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:50:52] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1219:50:58] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:51:13] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1219:51:13] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1219:51:13] [ INFO ] [OdontologoService:48] Registrando turno para el paciente con ID: 1
+[2022-12-1219:51:13] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1219:51:13] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1219:51:13] [ DEBUG] [OdontologoService:52] Guardando al turno con ID: null
+[2022-12-1219:51:22] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:51:22] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:54:47] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:54:50] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:54:50] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1219:55:00] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1219:55:00] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1219:55:02] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:55:02] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1219:55:10] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:55:10] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1219:55:20] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1219:55:20] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1219:55:23] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:55:23] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1219:55:31] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:55:42] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1219:55:42] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1219:55:42] [ INFO ] [OdontologoService:48] Registrando turno para el paciente con ID: 1
+[2022-12-1219:55:42] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1219:55:42] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1219:55:42] [ DEBUG] [OdontologoService:52] Guardando al turno con ID: null
+[2022-12-1219:55:45] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:55:45] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:58:11] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:58:11] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1219:58:21] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1219:58:21] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1219:58:23] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:58:23] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1219:58:26] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:58:26] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1219:58:36] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1219:58:36] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1219:58:38] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1219:58:38] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1219:58:40] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1219:58:53] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1219:58:53] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1219:58:53] [ INFO ] [OdontologoService:48] Registrando turno para el paciente con ID: 1
+[2022-12-1219:58:53] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1219:58:53] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1219:58:53] [ DEBUG] [OdontologoService:52] Guardando al turno con ID: null
+[2022-12-1219:58:55] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:58:55] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1219:59:51] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1219:59:51] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1220:00:01] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1220:00:01] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1220:00:02] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1220:00:02] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1220:00:05] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1220:00:05] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1220:00:15] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1220:00:15] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1220:00:18] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1220:00:18] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1220:00:26] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1220:00:26] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1220:00:29] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1220:00:43] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1220:00:43] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1220:00:43] [ INFO ] [OdontologoService:48] Registrando turno para el paciente con ID: 1
+[2022-12-1220:00:43] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1220:00:43] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1220:00:43] [ DEBUG] [OdontologoService:52] Guardando al turno con ID: null
+[2022-12-1220:00:45] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1220:00:45] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1221:44:00] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1221:44:00] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1221:44:07] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1221:44:07] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: null
+[2022-12-1221:44:08] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1221:44:08] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1221:44:11] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1221:44:11] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1221:44:24] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1221:44:24] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1221:44:28] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1221:44:28] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1221:44:31] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1221:44:41] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1221:44:41] [ ERROR] [GlobalExceptionHandler:18] The given id must not be null!; nested exception is java.lang.IllegalArgumentException: The given id must not be null! GlobalExceptionHandler
+[2022-12-1221:44:44] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1221:44:51] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1221:44:54] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1221:45:09] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1221:45:09] [ ERROR] [GlobalExceptionHandler:18] The given id must not be null!; nested exception is java.lang.IllegalArgumentException: The given id must not be null! GlobalExceptionHandler
+[2022-12-1221:45:41] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1221:46:06] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1221:46:06] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1221:46:13] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1221:46:13] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: null
+[2022-12-1221:46:14] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1221:46:14] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1221:46:17] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1221:46:17] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1221:46:27] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1221:46:27] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1221:46:29] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1221:46:29] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1221:46:32] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1221:46:43] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1221:46:43] [ ERROR] [GlobalExceptionHandler:18] The given id must not be null!; nested exception is java.lang.IllegalArgumentException: The given id must not be null! GlobalExceptionHandler
+[2022-12-1221:46:47] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1221:47:45] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1221:47:45] [ ERROR] [GlobalExceptionHandler:18] No se encontraron odontologos GlobalExceptionHandler
+[2022-12-1221:47:50] [ INFO ] [OdontologoService:32] Ingresando a registrar odontologo
+[2022-12-1221:47:50] [ DEBUG] [OdontologoService:41] Guardando al odontologo con ID: 1
+[2022-12-1221:47:52] [ INFO ] [OdontologoService:39] Ingresando a listar odontologos
+[2022-12-1221:47:52] [ DEBUG] [OdontologoService:56] Mostando lista de odontólogos de tamaño: 1
+[2022-12-1221:47:55] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1221:47:55] [ ERROR] [GlobalExceptionHandler:18] No se encontraron pacientes GlobalExceptionHandler
+[2022-12-1221:48:04] [ INFO ] [OdontologoService:31] Ingresando a registrar paciente
+[2022-12-1221:48:04] [ DEBUG] [OdontologoService:40] Guardando al paciente con ID: 1
+[2022-12-1221:48:05] [ INFO ] [OdontologoService:57] Ingresando a listar pacientes
+[2022-12-1221:48:05] [ DEBUG] [OdontologoService:54] Mostando lista de pacientes de tamaño: 1
+[2022-12-1221:48:07] [ ERROR] [GlobalExceptionHandler:18] No se encontraron turnos GlobalExceptionHandler
+[2022-12-1221:48:20] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1221:48:20] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1221:48:20] [ INFO ] [OdontologoService:48] Registrando turno para el paciente con ID: 1
+[2022-12-1221:48:20] [ DEBUG] [OdontologoService:64] Buscando al paciente con ID: 1
+[2022-12-1221:48:20] [ DEBUG] [OdontologoService:66] Buscando al odontologo con ID: 1
+[2022-12-1221:48:20] [ DEBUG] [OdontologoService:52] Guardando al turno con ID: null
+[2022-12-1221:48:22] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1
+[2022-12-1221:48:22] [ DEBUG] [OdontologoService:81] Mostrando lista de turnos de tamaño: 1

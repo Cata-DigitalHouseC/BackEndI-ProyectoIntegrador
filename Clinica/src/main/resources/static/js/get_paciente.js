@@ -17,7 +17,7 @@ window.addEventListener('load', function () {
                     //cada fila tendrá un ID que luego nos permitirá
                     //borrar la fila si eliminamos el paciente
                     var table = document.getElementById("pacienteTable");
-                    var pacientegoRow =table.insertRow();
+                    var pacienteRow =table.insertRow();
                     let tr_id = 'tr_' + paciente.id;
                     pacienteRow.id = tr_id;
 
@@ -47,7 +47,7 @@ window.addEventListener('load', function () {
                     //como primera columna pondremos el botón modificar
                     //luego los datos de cada paciente
                     //como última columna, el botón eliminar
-                    peliculaRow.innerHTML = '<td>' + updateButton + '</td>' +
+                    pacienteRow.innerHTML = '<td>' + updateButton + '</td>' +
                         '<td class=\"td_nombre\">' + paciente.nombre.toUpperCase() + '</td>' +
                         '<td class=\"td_apellido\">' + paciente.apellido.toUpperCase() + '</td>' +
                         '<td class=\"td_domicilio\">' + paciente.domicilio + '</td>' +

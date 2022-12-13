@@ -5,6 +5,7 @@ import com.example.Sesion25Paciente.entities.Odontologo;
 import com.example.Sesion25Paciente.exception.ResourceNotFoundException;
 import com.example.Sesion25Paciente.repository.OdontologoRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -27,6 +28,9 @@ public class OdontologoService {
         this.odontologoRepository = odontologoRepository;
     }
 
+    //Para Log4j
+    private static Logger LOGGER = Logger.getLogger(OdontologoService.class);
+
     //: listar, agregar, modificar y eliminar odontólogos.
 
     //Agregar o guardar odontologo
@@ -34,6 +38,7 @@ public class OdontologoService {
         Odontologo odontologoEntity = mapper.convertValue(odontologoDto, Odontologo.class);
         Odontologo odontologoCreadoEntity = odontologoRepository.save(odontologoEntity);
         OdontologoDto odontologoCreadoDto = mapper.convertValue(odontologoCreadoEntity, OdontologoDto.class);
+        LOGGER.debug("Guardando al odontologo con ID: "+odontologoCreadoDto.id);
         return Optional.of(odontologoCreadoDto);
     }
 
@@ -42,12 +47,13 @@ public class OdontologoService {
 
        List<Odontologo> odontologos = odontologoRepository.findAll(); //Devuelve una lista de  odontologos, pero, se requieren dto
        Set<OdontologoDto> odontologosDto = new HashSet<>();
-       if(odontologosDto.isEmpty()){
+       if(odontologos.isEmpty()){
            throw new ResourceNotFoundException("No se encontraron odontologos");
        }
        for (Odontologo odontologo : odontologos) { //Recorro cada obj odontologo y lo convierot a dto
            OdontologoDto odontologoDto = mapper.convertValue(odontologo, OdontologoDto.class); //cnvierto a dto
            odontologosDto.add(odontologoDto); //adiciono al set d los dto
+           LOGGER.debug("Mostando lista de odontólogos de tamaño: "+odontologosDto.size());
        }
        return odontologosDto;
    }
@@ -57,6 +63,7 @@ public class OdontologoService {
         Optional<Odontologo> odontologo = odontologoRepository.findById(id); //Optional -> tiene o no contenido //Optional envuelve al obj y le agrega mas capacidades
     if (odontologo.isPresent()) {
             OdontologoDto odontologoDto = mapper.convertValue(odontologo.get(), OdontologoDto.class); //mapea de entidad a dto
+            LOGGER.debug("Buscando al odontologo con ID: "+odontologoDto.id);
             return Optional.of(odontologoDto);
         } else {
             throw new ResourceNotFoundException("No se encontro el odontologo con id: " + id);
@@ -76,6 +83,7 @@ public class OdontologoService {
             odontologoEntity.setMatricula(odontologoDtoNuevo.matricula != null ? odontologoDtoNuevo.matricula:odontologoDtoActual.get().matricula);
             odontologoRepository.save(odontologoEntity);
             OdontologoDto odontologoModificadoDto = mapper.convertValue(odontologoEntity, OdontologoDto.class);
+            LOGGER.debug("Modificando odontologo con ID: "+odontologoModificadoDto.id);
             return Optional.of(odontologoModificadoDto);
         } else {
             return guardar(odontologoDtoNuevo);
@@ -88,6 +96,7 @@ public class OdontologoService {
         if(!buscar(id).isPresent()){
             throw new ResourceNotFoundException("No se encontro el odontologo con el id: " + id); //o SQLException
         }
+        LOGGER.debug("Borrando  odontologo con ID: "+id);
         odontologoRepository.deleteById(id);
 
     }

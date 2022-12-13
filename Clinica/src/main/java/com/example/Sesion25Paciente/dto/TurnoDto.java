@@ -1,23 +1,20 @@
 package com.example.Sesion25Paciente.dto;
 
-import com.example.Sesion25Paciente.entities.Odontologo;
-import com.example.Sesion25Paciente.entities.Paciente;
-
 import java.util.Date;
 
 public class TurnoDto {
 
     public Integer id;
-    public Integer pacienteId;
-    public Integer odontologoId;
-    public Date fecha;
+    public PacienteDto paciente;
+    public OdontologoDto odontologo;
+    public Date date;
 
     public TurnoDto() {
     }
 
-    public TurnoDto(Integer pacienteId, Integer odontologoId, Date fecha) {
-        this.pacienteId = pacienteId;
-        this.odontologoId = odontologoId;
-        this.fecha = fecha;
+    public TurnoDto(PacienteDto paciente, OdontologoDto odontologo, Date date) {
+        this.paciente = paciente;
+        this.odontologo = odontologo;
+        this.date = date;
     }
 }

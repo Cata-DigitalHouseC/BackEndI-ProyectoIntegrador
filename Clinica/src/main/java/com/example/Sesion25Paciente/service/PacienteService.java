@@ -6,6 +6,7 @@ import com.example.Sesion25Paciente.entities.Paciente;
 import com.example.Sesion25Paciente.exception.ResourceNotFoundException;
 import com.example.Sesion25Paciente.repository.PacienteRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,6 +27,9 @@ public class PacienteService{
         this.pacienteRepository = pacienteRepository;
     }
 
+    //Para Log4j
+    private static Logger LOGGER = Logger.getLogger(OdontologoService.class);
+
     //: listar, agregar, modificar y eliminar pacientes
 
     //Agregar o guardar paciente
@@ -33,6 +37,7 @@ public class PacienteService{
         Paciente pacienteEntity = mapper.convertValue(pacienteDto, Paciente.class);
         Paciente pacienteCreadoEntity = pacienteRepository.save(pacienteEntity);
         PacienteDto pacienteCreadoDto = mapper.convertValue(pacienteCreadoEntity, PacienteDto.class);
+        LOGGER.debug("Guardando al paciente con ID: "+pacienteCreadoDto.id);
         return Optional.of(pacienteCreadoDto);
     }
 
@@ -40,12 +45,13 @@ public class PacienteService{
     public Set<PacienteDto> listar() throws ResourceNotFoundException {
         List<Paciente> pacientes = pacienteRepository.findAll(); //Devuelve una lista de pacientes, pero, se requieren dto
         Set<PacienteDto> pacientesDto = new HashSet<>();
-        if(pacientesDto.isEmpty()){
+        if(pacientes.isEmpty()){
             throw new ResourceNotFoundException("No se encontraron pacientes");
         }
         for (Paciente paciente : pacientes) { //Recorro cada obj pacientes y lo convierot a dto
             PacienteDto pacienteDto = mapper.convertValue(paciente, PacienteDto.class); //cnvierto a dto
             pacientesDto.add(pacienteDto); //adiciono al set d los dto
+            LOGGER.debug("Mostando lista de pacientes de tamaño: "+pacientesDto.size());
         }
         return pacientesDto;
     }
@@ -55,6 +61,7 @@ public class PacienteService{
         Optional<Paciente> paciente = pacienteRepository.findById(id); //Optional -> tiene o no contenido //Optional envuelve al obj y le agrega mas capacidades
         if (paciente.isPresent()) {
             PacienteDto pacienteDto = mapper.convertValue(paciente.get(), PacienteDto.class); //mapea de entidad a dto
+            LOGGER.debug("Buscando al paciente con ID: "+pacienteDto.id);
             return Optional.of(pacienteDto);
         } else {
             throw new ResourceNotFoundException("No se encontro el paciente con id: " + id); //si no encuentra nada
@@ -77,6 +84,7 @@ public class PacienteService{
             pacienteEntity.setFechaAlta(pacienteDtoNuevo.fechaAlta != null ? pacienteDtoNuevo.fechaAlta:pacienteDtoActual.get().fechaAlta);
             pacienteRepository.save(pacienteEntity);
             PacienteDto pacienteModificadoDto = mapper.convertValue(pacienteEntity, PacienteDto.class);
+            LOGGER.debug("Modificando paciente con ID: "+pacienteModificadoDto.id);
             return Optional.of(pacienteModificadoDto);
         } else { //si no existe el paciente, lo creo
             return guardar(pacienteDtoNuevo);
@@ -89,6 +97,7 @@ public class PacienteService{
         if(!buscar(id).isPresent()){
             throw new ResourceNotFoundException("No se encontro el paciente con el id: " + id); //o SQLException
         }
+        LOGGER.debug("Borrando  paciente con ID: "+id);
         pacienteRepository.deleteById(id);
 
     }

@@ -3,7 +3,7 @@ window.addEventListener('load', function () {
     //Al cargar la página buscamos y obtenemos el formulario donde estarán
     //los datos que el usuario cargará del nuevo odontólogo
 
-    const formulario = document.querySelector('#add_new_odontologo');
+    const formulario = document.querySelector('#add_new_odontolgo');
 
     //Ante un submit del formulario
     //se ejecutará la siguiente función
@@ -14,6 +14,7 @@ window.addEventListener('load', function () {
         //del nuevo odontólogo
 
         const formData = {
+            //id: document.querySelector('#idOdontologo').value,
             nombre: document.querySelector('#nombre').value,
             apellido: document.querySelector('#apellido').value,
             matricula: document.querySelector('#matricula').value
@@ -67,7 +68,8 @@ window.addEventListener('load', function () {
     });
 
     function resetUploadForm(){
-document.querySelector('#nombre').value = '';
+        //document.querySelector('#idOdontologo').value = "";
+        document.querySelector('#nombre').value = '';
         document.querySelector('#apellido').value = '';
         document.querySelector('#matricula').value = '';
     }

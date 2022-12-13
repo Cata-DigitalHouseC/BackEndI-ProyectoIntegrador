@@ -1,29 +1,27 @@
 window.addEventListener('load', function () {
 
-    //Al cargar la página buscamos y obtenemos el formulario donde estarán
-    //los datos que el usuario cargará del nuevo  turno
-
+    //Al cargar la pagina buscamos y obtenemos el formulario donde estarán
+    //los datos que el usuario cargará del nuevo odontologo
     const formulario = document.querySelector('#add_new_turno');
 
-    //Ante un submit del formulario
-    //se ejecutará la siguiente función
-
+    //Ante un submit del formulario se ejecutará la siguiente funcion
     formulario.addEventListener('submit', function (event) {
 
-        //creamos un JSON que tendrá los datos
-        //del nuevo turno
-
+        //creamos un JSON que tendrá los datos de un nuevo odontologo
         const formData = {
-            paciente_id: document.querySelector('#idPaciente').value,
-            odontologo_id: document.querySelector('#idOdontologo').value,
-            date: document.querySelector('#date').value,
-        }
+            paciente: {
+                id: document.querySelector('#paciente_id').value
+            },
+            odontologo: {
+                id: document.querySelector('#odontologo_id').value
+            },
+            date: document.querySelector('#fecha').value
+            //hora: document.querySelector('#hora').value,
+        };
+        console.log(formData)
 
-
-        //invocamos la API odontólogos utilizando la función fetch de JavaScript
-        //con el método POST que guardará
-        //el turno que enviaremos en formato JSON
-
+        //invocamos utilizando la función fetch la API peliculas con el método POST que guardará
+        //la película que enviaremos en formato JSON
         const url = '/turnos';
         const settings = {
             method: 'POST',
@@ -36,39 +34,43 @@ window.addEventListener('load', function () {
         fetch(url, settings)
             .then(response => response.json())
             .then(data => {
-                //Si no hay ningún error,
-                //se muestra un mensaje diciendo que el turno
-                //fue agregado
+                //Si no hay ningun error se muestra un mensaje diciendo que el odontologo
+                //se agrego bien
                 let successAlert = '<div class="alert alert-success alert-dismissible">' +
-                    '<button type="button" class="close" ' +
-                    'data-dismiss="alert">&times;</button>' +
+                    '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
                     '<strong></strong> Turno agregado </div>'
 
                 document.querySelector('#response').innerHTML = successAlert;
                 document.querySelector('#response').style.display = "block";
                 resetUploadForm();
+
             })
             .catch(error => {
-                //Si hay algún error,
-                //se muestra un mensaje diciendo que el turno
+                //Si hay algun error se muestra un mensaje diciendo que el odontologo
                 //no se pudo guardar y se intente nuevamente
                 let errorAlert = '<div class="alert alert-danger alert-dismissible">' +
-                    '<button type="button" class="close"' +
-                    'data-dismiss="alert">&times;</button>' +
+                    '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
                     '<strong> Error intente nuevamente</strong> </div>'
 
                 document.querySelector('#response').innerHTML = errorAlert;
                 document.querySelector('#response').style.display = "block";
-
-                //se dejan todos los campos vacíos
-                //por si se quiere ingresar otro turno
-
                 resetUploadForm();})
     });
 
+
     function resetUploadForm(){
-        document.querySelector('#idPaciente').value = '';
-        document.querySelector('#idOdontologo').value = '';
-        document.querySelector('#date').value = '';
+        document.querySelector('#fecha').value = "";
+        //document.querySelector('#hora').value = "";
+        document.querySelector('#paciente_id').value = "";
+        document.querySelector('#odontologo_id').value = "";
     }
+
+    (function(){
+        let pathname = window.location.pathname;
+        if(pathname === "/"){
+            document.querySelector(".nav .nav-item a:first").addClass("active");
+        } else if (pathname == "/ListaTurnos.html"){
+            document.querySelector(".nav .nav-item a:last").addClass("active");
+        }
+    })();
 });
